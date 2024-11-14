@@ -30,4 +30,7 @@ idea(){
   exit
 }
 
-#code(){}
+code(){
+  nohup /usr/bin/code "$@" > /dev/null 2>&1 &
+  exit
+}
