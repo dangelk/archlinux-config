@@ -1,0 +1,31 @@
+[window]
+title = "Alacritty"
+opacity = 0.6
+padding = { x = 45, y = 50 }
+
+[font]
+size = 14.0
+offset.x = 0
+offset.y = 4
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "Consolas"
+style = "Bold"
+
+[colors]
+primary = { background = "0x000000", foreground = "0xfafafa" }
+
+[keyboard]
+bindings = [{ key = "W", mods = "Control",  action = "Quit" }]
