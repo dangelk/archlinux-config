@@ -28,4 +28,4 @@ style = "Bold"
 primary = { background = "0x000000", foreground = "0xfafafa" }
 
 [keyboard]
-bindings = [{ key = "W", mods = "Control",  action = "Quit" }]
+# bindings = [{ key = "W", mods = "Control",  action = "Quit" }]

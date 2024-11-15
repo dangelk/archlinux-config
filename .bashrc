@@ -10,11 +10,10 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 #path
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
-export PATH=$JAVA_HOME/bin:$PATH
+# export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+# export PATH=$JAVA_HOME/bin:$PATH
 
 #alias
-
 #alias idea='(nohup /usr/bin/intellij-idea-ultimate-edition> /dev/null 2>&1 &) & exit'
 alias brave='(nohup /usr/bin/brave > /dev/null 2>&1 &) & exit'
 alias discord='(nohup /usr/bin/discord > /dev/null 2>&1 &) & exit'

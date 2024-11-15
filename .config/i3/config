@@ -209,13 +209,15 @@ gaps inner 15
 
 #autoexec ...
 
-#background-terminal-transparency
-exec --no-startup-id feh --bg-scale /home/magia/images/sakura--rchannel-boosted--1920-1080.png
-exec --no-startup-id picom --config /home/magia/.config/picom/picom.conf
+#background
+exec --no-startup-id feh --bg-scale ~/Pictures/sakura--rchannel-boosted--1920-1080.png
+
+#picom
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 #video-options
-exec --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 144
-exec --no-startup-id xrandr --output DP-0 --gamma 0.95:0.95:0.95
+# exec --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 144
+# exec --no-startup-id xrandr --output DP-0 --gamma 0.95:0.95:0.95
 
 #mouse-options
-exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -1
+# exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -1
